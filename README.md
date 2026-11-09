@@ -55,7 +55,6 @@ The cursus took me from raw C — rewriting the standard library, a raycasting e
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Vault](https://img.shields.io/badge/Vault-FFEC6E?style=flat-square&logo=vault&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
@@ -94,7 +93,7 @@ The cursus took me from raw C — rewriting the standard library, a raycasting e
 
 <tr><td><a href="https://github.com/Primoux/inception"><b>Inception</b></a></td><td><code>Docker</code> <code>Nginx</code></td><td>Orchestrated multi-container infrastructure, volumes, networks, TLS</td></tr>
 
-<tr><td><a href="https://github.com/Primoux/ft_transcendence"><b>ft_transcendence</b> 🚧</a></td><td><code>TS</code> <code>React</code> <code>Fastify</code></td><td>Fullstack web app: real-time gameplay, authentication, monitoring, secret management</td></tr>
+<tr><td><a href="https://github.com/Primoux/ft_transcendence"><b>ft_transcendence</b> 🚧</a></td><td><code>TS</code> <code>React</code> <code>Fastify</code></td><td>Fullstack web app: real-time gameplay, authentication, Grafana/Prometheus monitoring</td></tr>
 
 </table>
 
