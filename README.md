@@ -24,7 +24,7 @@ struct student me = {
 
 Software engineering student at **42 Lyon**, currently finishing the Common Core.
 
-The cursus took me from raw C — rewriting the standard library, a raycasting engine, a shell — through **object-oriented C++**, and now to **typed fullstack web** and **DevOps**.
+The cursus took me from raw C — rewriting the standard library, a raycasting engine, a shell — through **object-oriented C++**, and now to **typed frontend work** with React, plus **Docker and observability tooling**.
 
 ---
 
@@ -41,13 +41,12 @@ The cursus took me from raw C — rewriting the standard library, a raycasting e
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-**Web & Backend**
+**Frontend**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![daisyUI](https://img.shields.io/badge/daisyUI-1AD1A5?style=flat-square&logo=daisyui&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 **Infra & Tooling**
 
@@ -93,7 +92,7 @@ The cursus took me from raw C — rewriting the standard library, a raycasting e
 
 <tr><td><a href="https://github.com/Primoux/inception"><b>Inception</b></a></td><td><code>Docker</code> <code>Nginx</code></td><td>Orchestrated multi-container infrastructure, volumes, networks, TLS</td></tr>
 
-<tr><td><a href="https://github.com/Primoux/ft_transcendence"><b>ft_transcendence</b> 🚧</a></td><td><code>TS</code> <code>React</code> <code>Fastify</code></td><td>Fullstack web app: real-time gameplay, authentication, Grafana/Prometheus monitoring</td></tr>
+<tr><td><a href="https://github.com/Primoux/ft_transcendence"><b>ft_transcendence</b> 🚧</a></td><td><code>TS</code> <code>React</code> <code>Docker</code></td><td>Team web app: React frontend, Docker infrastructure, Grafana/Prometheus monitoring</td></tr>
 
 </table>
 
