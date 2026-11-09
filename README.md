@@ -4,7 +4,6 @@
 
 <p>
   <a href="https://github.com/Primoux?tab=repositories"><img src="https://img.shields.io/badge/Cursus-42%20Lyon-000000?style=for-the-badge&logo=42&logoColor=white" alt="42 Lyon" /></a>
-  <img src="https://img.shields.io/badge/Focus-Backend%20%26%20Systems-4c1d95?style=for-the-badge" alt="Focus" />
   <img src="https://komarev.com/ghpvc/?username=Primoux&style=for-the-badge&color=4c1d95&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
@@ -15,18 +14,17 @@
 ### `> whoami`
 
 ```c
-struct developer {
-    char *name     = "Enzo";
-    char *school   = "42 Lyon";
-    char *learning = "C → C++ → TypeScript → DevOps";
-    char *now      = "ft_transcendence (final Common Core project)";
-    char *likes    = "low-level internals, clean architecture, shipping things";
+struct student me = {
+    .name    = "Enzo",
+    .school  = "42 Lyon",
+    .path    = "C → C++ → TypeScript → DevOps",
+    .current = "ft_transcendence (final Common Core project)",
 };
 ```
 
-Software engineering student at **42 Lyon**. I started in raw C — rewriting the standard library, building a raycasting engine, writing a shell — then moved through **object-oriented C++**, and now work on **typed fullstack web** and **DevOps**.
+Software engineering student at **42 Lyon**, currently finishing the Common Core.
 
-I like understanding what sits underneath the abstraction, and building things that actually run.
+The cursus took me from raw C — rewriting the standard library, a raycasting engine, a shell — through **object-oriented C++**, and now to **typed fullstack web** and **DevOps**.
 
 ---
 
@@ -67,10 +65,10 @@ I like understanding what sits underneath the abstraction, and building things t
 
 ### `> 42_cursus`
 
-> The 42 Common Core, in the order I went through it.
+> The 42 Common Core, in the order I completed it.
 
 <table>
-<tr><th align="left">Project</th><th align="left">Stack</th><th align="left">What it taught me</th></tr>
+<tr><th align="left">Project</th><th align="left">Stack</th><th align="left">Key concepts</th></tr>
 
 <tr><td><a href="https://github.com/Primoux/Libft"><b>Libft</b></a></td><td><code>C</code></td><td>Rewriting the C standard library: memory, strings, linked lists</td></tr>
 
@@ -80,15 +78,15 @@ I like understanding what sits underneath the abstraction, and building things t
 
 <tr><td><a href="https://github.com/Primoux/So_long"><b>So_long</b></a></td><td><code>C</code> <code>MLX</code></td><td>First 2D game: sprites, event handling, map parsing</td></tr>
 
-<tr><td><a href="https://github.com/Primoux/Cub3D"><b>Cub3D</b></a></td><td><code>C</code> <code>MLX</code></td><td><b>Raycasting engine</b> in the spirit of Wolfenstein 3D, from scratch</td></tr>
+<tr><td><a href="https://github.com/Primoux/Cub3D"><b>Cub3D</b></a></td><td><code>C</code> <code>MLX</code></td><td><b>Raycasting engine</b> written from scratch, Wolfenstein 3D-style rendering</td></tr>
 
-<tr><td><a href="https://github.com/Primoux/Philosophers"><b>Philosophers</b></a></td><td><code>C</code> <code>pthreads</code></td><td>Threads, mutexes, deadlocks and starvation — real concurrency</td></tr>
+<tr><td><a href="https://github.com/Primoux/Philosophers"><b>Philosophers</b></a></td><td><code>C</code> <code>pthreads</code></td><td>POSIX threads, mutexes, deadlock and starvation handling</td></tr>
 
 <tr><td><b>minishell</b> <sub>(private repo)</sub></td><td><code>C</code></td><td>A full shell: parsing, redirections, heredocs, builtins</td></tr>
 
 <tr><td><a href="https://github.com/Primoux/ft_shmup"><b>ft_shmup</b></a></td><td><code>C</code> <code>ncurses</code></td><td>Rush project: a playable terminal shoot'em up in 48 hours</td></tr>
 
-<tr><td><a href="https://github.com/Primoux/NetPractice"><b>NetPractice</b></a></td><td><code>Network</code></td><td>Subnetting, routing and masks — the fundamentals of IP</td></tr>
+<tr><td><a href="https://github.com/Primoux/NetPractice"><b>NetPractice</b></a></td><td><code>Network</code></td><td>Subnetting, netmasks and IP routing</td></tr>
 
 <tr><td><a href="https://github.com/Primoux/CPP_Piscine"><b>CPP Modules 00 → 09</b></a></td><td><code>C++</code></td><td>OOP, inheritance, polymorphism, templates, <b>STL</b>, custom containers</td></tr>
 
@@ -96,7 +94,7 @@ I like understanding what sits underneath the abstraction, and building things t
 
 <tr><td><a href="https://github.com/Primoux/inception"><b>Inception</b></a></td><td><code>Docker</code> <code>Nginx</code></td><td>Orchestrated multi-container infrastructure, volumes, networks, TLS</td></tr>
 
-<tr><td><a href="https://github.com/Primoux/ft_transcendence"><b>ft_transcendence</b> 🚧</a></td><td><code>TS</code> <code>React</code> <code>Fastify</code></td><td>The final boss: fullstack webapp, real-time, auth, monitoring, Vault</td></tr>
+<tr><td><a href="https://github.com/Primoux/ft_transcendence"><b>ft_transcendence</b> 🚧</a></td><td><code>TS</code> <code>React</code> <code>Fastify</code></td><td>Fullstack web app: real-time gameplay, authentication, monitoring, secret management</td></tr>
 
 </table>
 
@@ -106,12 +104,7 @@ I like understanding what sits underneath the abstraction, and building things t
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Primoux&show_icons=true&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=a78bfa&text_color=c9d1d9&include_all_commits=true&count_private=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Primoux&layout=compact&hide_border=true&bg_color=0d1117&title_color=a78bfa&text_color=c9d1d9&langs_count=8" alt="Top languages" />
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Primoux&hide_border=true&background=0d1117&stroke=4c1d95&ring=a78bfa&fire=a78bfa&currStreakLabel=a78bfa&sideLabels=c9d1d9&dates=8b949e" alt="Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Primoux&hide_border=true&background=0d1117&stroke=4c1d95&ring=a78bfa&fire=f97316&currStreakLabel=ffffff&sideLabels=ffffff&dates=c9d1d9&currStreakNum=ffffff&sideNums=ffffff" alt="Contribution streak" />
 
 </div>
 
@@ -124,9 +117,7 @@ I like understanding what sits underneath the abstraction, and building things t
 <a href="mailto:enzochevrier@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://github.com/Primoux"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 
-<br/><br/>
-
-<i>"You only really understand an abstraction once you've reimplemented it."</i>
+<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4c1d95,100:1a1b27&height=120&section=footer" width="100%" alt="" />
 
